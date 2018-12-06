@@ -1,0 +1,50 @@
+{
+	"name": "html-thirdparty",
+	"version": "1.0.0",
+	"description": "gulp,vue",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "NODE_ENV=dev && gulp start",
+		"local": "gulp clean && gulp --env local && rm -rf todist",
+		"qa": "gulp clean && gulp --env qa && rm -rf todist",
+		"deploy": "gulp clean && gulp --env production && rm -rf todist",
+		"production": "gulp clean && gulp --env production && rm -rf todist"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@106.14.94.150:zxl-yishuyike/html-thirdparty.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-es2015": "^6.24.1",
+		"browser-sync": "^2.23.6",
+		"del": "^3.0.0",
+		"gulp": "^3.9.1",
+		"gulp-autoprefixer": "^4.0.0",
+		"gulp-babel": "^7.0.1",
+		"gulp-clean-css": "^3.7.0",
+		"gulp-connect": "^5.0.0",
+		"gulp-flatten": "^0.4.0",
+		"gulp-if": "^2.0.2",
+		"gulp-imagemin": "^3.3.0",
+		"gulp-jshint": "^2.0.4",
+		"gulp-load-plugins": "^1.5.0",
+		"gulp-minify-css": "^1.2.4",
+		"gulp-plumber": "^1.1.0",
+		"gulp-rename": "^1.2.2",
+		"gulp-replace": "^0.6.1",
+		"gulp-rev-all": "^0.9.7",
+		"gulp-sass": "^3.1.0",
+		"gulp-size": "^2.1.0",
+		"gulp-sourcemaps": "^2.6.0",
+		"gulp-uglify": "^3.0.0",
+		"gulp-useref": "^0.5.0",
+		"gulp-util": "^3.0.8",
+		"gulp-watch": "^4.3.11",
+		"jshint-stylish": "^2.2.1",
+		"shelljs": "^0.7.8"
+	}
+}

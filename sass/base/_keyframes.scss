@@ -1,0 +1,71 @@
+@charset 'utf-8';
+
+//----------------------
+// 动画关键帧定义
+//----------------------
+
+@keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    transform: scaley(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scaley(1);
+  }
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes move-left {
+  0% {
+    transform: translate3d(-10px, 0, 0);
+    opacity: 1;
+  }
+  70% {
+    transform: translate3d(-5px, 0, 0);
+  }
+  90% {
+    transform: translate3d(-5px, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 0;
+  }
+
+}
+@keyframes move-right {
+  0% {
+    transform: translate3d(10px, 0, 0) rotate(180deg);
+    opacity: 1;
+  }
+  70% {
+    transform: translate3d(5px, 0, 0) rotate(180deg);
+  }
+  90% {
+    transform: translate3d(5px, 0, 0) rotate(180deg);
+  }
+  100% {
+    opacity: 0;
+  }  
+}

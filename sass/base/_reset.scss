@@ -1,0 +1,59 @@
+@charset 'utf-8';
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, 'Microsoft Yahei', 'SimHei';
+}
+img{
+	// max-width: 100%;
+}
+//-----------------------------------------------------
+// reset scss
+//-----------------------------------------------------
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+form,
+blockquote {
+	margin: 0;
+}
+
+// ul ol dl
+ul,
+ol,
+li,
+dl,
+dd {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none outside none;
+}
+
+// hn
+h1,
+h2,
+h3 {
+	line-height: 2;
+	font-weight: normal;
+}
+
+img {
+	display: block;
+}
+
+a{
+	text-decoration: none;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
